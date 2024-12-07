@@ -1,0 +1,39 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+  background-color: aquamarine;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#chat {
+  width: 600px;
+  height: 300px;
+  border: 2px solid #0f0d0d;
+  overflow-y: scroll;
+}
+
+#chat div {
+  padding: 5px 20px;
+}
+
+#form_masseges {
+  padding-left: 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.system-message {
+  color: rgb(141, 141, 141);
+  margin-top: 20px;
+}
